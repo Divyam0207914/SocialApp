@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://socialapp-b0fh.onrender.com',
+  baseURL: 'https://socialapp-b0fh.onrender.com/api',
 });
 
 // Add a request interceptor to attach the JWT token
